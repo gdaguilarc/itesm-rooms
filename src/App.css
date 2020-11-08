@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Raleway-Bold";
+  src: local("Raleway-Bold"), url(./fonts/Raleway-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-Regular";
+  src: local("Raleway-Regular"),
+    url(./fonts/Raleway-Regular.ttf) format("truetype");
+}
