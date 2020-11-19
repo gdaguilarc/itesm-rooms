@@ -9,7 +9,7 @@ import "./App.css";
 function AppSecure() {
   return (
     <Switch>
-      <Route exact path="/app/appointments" component={Appointments} />
+      <Route path="/app/appointments" component={Appointments} />
     </Switch>
   );
 }
